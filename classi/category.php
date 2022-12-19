@@ -6,6 +6,8 @@ class Categoria
     public $icon;
 
     public function __construct(
+
+        //own
         String $nome,
         String $icon)
     {
