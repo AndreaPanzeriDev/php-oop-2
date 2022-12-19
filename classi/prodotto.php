@@ -1,5 +1,7 @@
 <?php
 
+
+include_once __DIR__ . './category.php';
 class Prodotto{
     public $immagine;
     public $nome;
