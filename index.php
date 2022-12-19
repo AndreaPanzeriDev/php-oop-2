@@ -13,10 +13,10 @@ $categorie = [
 
 
 $prodotto = [
-    new Cibo('https://picsum.photos/200/300', 'Royal Canin', 43.99, $categorie['cane'], 545, 'pollo'),
-    new Cibo('https://picsum.photos/200/300', 'Almo nature', 43.99, $categorie['cane'], 600, 'Grano'),
-    new Accessori('https://picsum.photos/200/300', 'Voliera Ferplast Bella Casa', 184.99, $categorie['uccello'], 'Legno', 'L83 x P 67 x H153cm'),
-    new Giocattoli('https://picsum.photos/200/300', 'Topini di peluche', 9.99, $categorie['uccello'], 'morbido ed intrattenente', '8.5 x 10')
+    new Cibo('https://picsum.photos/200/300?random=1', 'Royal Canin', 43.99, $categorie['cane'], 545, 'pollo'),
+    new Cibo('https://picsum.photos/200/300?random=2', 'Almo nature', 43.99, $categorie['cane'], 600, 'Grano'),
+    new Accessori('https://picsum.photos/200/300?random=3', 'Voliera Ferplast Bella Casa', 184.99, $categorie['uccello'], 'Legno', 'L83 x P 67 x H153cm'),
+    new Giocattoli('https://picsum.photos/200/300?random=4', 'Topini di peluche', 9.99, $categorie['uccello'], 'morbido ed intrattenente', '8.5 x 10')
 
 
 ];
