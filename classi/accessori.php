@@ -7,7 +7,7 @@ class Accessori{
 
     public function __construct(
         String $materiale,
-        String $dimensioni,
+        String $dimensioni
     )
     {
         $this->materiale= $materiale;
