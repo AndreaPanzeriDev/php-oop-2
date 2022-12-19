@@ -1,5 +1,8 @@
 <?php
 
+
+include_once __DIR__ . './prodotto.php';
+
 class Accessori extends Prodotto{
     public $materiale;
     public $dimensioni;
